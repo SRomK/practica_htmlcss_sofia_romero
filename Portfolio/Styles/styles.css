@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    background-image: url(https://mondaycareer.com/wp-content/uploads/2020/11/background-%C4%91%E1%BA%B9p-3-1.jpg);
+    background-position: center;
+}
+
+/*
+#background{
+    background-image: url(/Portfolio/Assets/background.jpg)
+    background-image: url(https://mondaycareer.com/wp-content/uploads/2020/11/background-%C4%91%E1%BA%B9p-3-1.jpg);
+    back
+
+    }*/
+
+h1 {
+    color:purple;
+}
