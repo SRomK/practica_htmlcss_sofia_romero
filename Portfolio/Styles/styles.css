@@ -81,7 +81,7 @@ nav{
 }
 
 .nav_links li a:hover{
-    color: #0088a9;
+    color: #3e00a9;
 }
 
 .cta{
@@ -91,7 +91,7 @@ nav{
 button{
     margin-left: 20px;
     padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
+    background-color: rgb(191, 129, 227);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -100,7 +100,7 @@ button{
 
 
 button:hover {
-    background-color: rgba(0,136,169,0.8);
+    background-color: rgba(93, 0, 169, 0.8);
     transition: color rgb(75, 28, 75) 0.3s linear;
 }
 
