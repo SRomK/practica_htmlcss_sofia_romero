@@ -31,7 +31,7 @@ h1 {
     font-size: 25px;
 }
 
-li, a, button {
+li, a {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -52,9 +52,12 @@ header{
     width: min(10vw, 80px);
     height: auto;
     cursor: pointer;
-    /*margin-right: auto;
-    order: 3;
-    margin-left: auto;*/
+    margin-left: 15px;
+    /*order: 3;*/
+}
+
+.last_link{
+    margin-right: 15px;
 }
 
 /*
@@ -84,26 +87,6 @@ nav{
     color: #3e00a9;
 }
 
-.cta{
-    order: 2;
-}
-
-button{
-    margin-left: 20px;
-    padding: 9px 25px;
-    background-color: rgb(191, 129, 227);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-
-button:hover {
-    background-color: rgba(93, 0, 169, 0.8);
-    transition: color rgb(75, 28, 75) 0.3s linear;
-}
-
 
 .profile_pic {
     margin: 20px;
@@ -115,7 +98,7 @@ button:hover {
 }
 
 
-.content {
+.content {
     width: 50%;
 }
 
@@ -285,14 +268,12 @@ footer {
     margin-bottom: 15px;
     border-radius: 2em;
 }
-
 .em_footer{
     font-family: "Montserrat", sans-serif;
     font-weight: bolder;
     font-size: 25px;
     background-color: transparent;
 }
-
 .rrss_links {
     display: flex;
     justify-content: end;
