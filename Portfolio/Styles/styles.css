@@ -232,10 +232,50 @@ hr {
 
 footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    background-color: #cda3dc;
 }
 
+#linkedin_logo {
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+    background-color: #cda3dc;
+    margin: 10px;
+}
+
+.linkandgit{
+    background-color: #cda3dc;
+}
+
+#github_logo {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #cda3dc;
+    margin: 10px;
+}
+
+@keyframes load{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 50px 50px;
+    }
+}
+
+
+@media screen and (min-width: 950px){
+    header {
+        opacity: 0.8;
+    }
+}
+
+
+
+/*
 .box {
     display: flex;
     justify-content: center;
@@ -253,28 +293,7 @@ footer {
     background-color: transparent;
 }
 
-/*
 .rrss_links {
     display: flex;
     justify-content: end;
 }*/
-
-
-
-
-
-@keyframes load{
-    0%{
-        background-position: 0 0;
-    }
-    100%{
-        background-position: 50px 50px;
-    }
-}
-
-
-@media screen and (min-width: 950px){
-    header {
-        opacity: 0.8;
-    }
-}
