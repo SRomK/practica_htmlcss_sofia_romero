@@ -22,45 +22,77 @@
         <a class="cta" href="#"><button>Contact</button></a>
     </header>
     <div class="container">
-        <div>
-        <img class="profile_pic" src="/Portfolio/Assets/profile.jpg" alt="profile picture">
-        <h1>My Portfolio: Sofia Romero Kamermann</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum reiciendis recusandae odit tenetur voluptatem
-            dolorum nam exercitationem ducimus voluptate nostrum fugiat placeat molestias, aperiam explicabo, optio
-            quia, debitis similique quibusdam.</p>
-        <h2>Mis Skills</h2>
-        <p>aca van mis skills</p>
+        <div class="first_section">
+            <img class="profile_pic" src="/Portfolio/Assets/profile.jpg" alt="profile picture">
+            <h1>My Portfolio: Sofia Romero Kamermann</h1>
         </div>
-        <form>
-            <div>
-                <label for="name">Name</label>
-                <input id="name" type="text" placeholder="¿Cuál es tu nombre?">
+        <p class="text_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum reiciendis recusandae odit
+            tenetur voluptatem
+            dolorum nam exercitationem ducimus voluptate nostrum fugiat placeat molestias, aperiam explicabo, optio
+            quia, debitis similique quibusdam.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum rerum eum voluptates cupiditate, dicta at
+            dolore. Minus animi saepe officia unde non perferendis in eligendi possimus iste iusto. Odio, voluptate.</p>
+
+
+        <h2 id="skills">Skills</h2>
+        <div class="wrapper">
+            <div class="content">
+                <h2>HTML</h2>
+                <div class="loading-bar animate">
+                    <span id="span_html"></span>
+                </div>
+                <h2>CSS</h2>
+                <div class="loading-bar animate">
+                    <span id="span_css"></span>
+                </div>
+                <h2>Javascript</h2>
+                <div class="loading-bar animate">
+                    <span id="span_js"></span>
+                </div>
+                <h2>React</h2>
+                <div class="loading-bar animate">
+                    <span id="span_react"></span>
+                </div>
             </div>
-            <div>
-                <label for="name">Name</label>
-                <input id="name" type="text" placeholder="¿Cuál es tu nombre?">
-            </div>
-            <div>
-                <label for="name">Name</label>
-                <input id="name" type="text" placeholder="¿Cuál es tu nombre?">
-            </div>
-            <div>
-                <label for="name">Name</label>
-                <input id="name" type="text" placeholder="¿Cuál es tu nombre?">
-            </div>
-            <!-- pool with radio buttons -->
-            <div>
-                <label for="name">Name</label>
-                <input id="name" type="text" placeholder="¿Cuál es tu nombre?">
-            </div>
-            <input class="button_enviar" type="submit" value="Enviar">
-        </form>
-  
+        </div>
     </div>
+    <form class="form_container">
+        <h2 class="pool"> ¿Cómo me conociste?</h2>
+        <div>
+            <label for="radio">
+                <input type="radio" name="checked">
+                Universidad
+            </label>
+        </div>
+        <div>
+            <label for="radio">
+                <input type="radio" name="checked">
+                Keep Coding Kick-Off
+            </label>
+        </div>
+        <div>
+            <label for="radio">
+                <input type="radio" name="checked">
+                Colegio
+            </label>
+        </div>
+        <div>
+            <label for="radio">
+                <input type="radio" name="checked">
+                Github
+            </label>
+        </div>
+        <input class="button_enviar" type="submit" value="Enviar">
+    </form>
+
+    </div>
+    <hr>
     <footer class="footer">
-        <em class="em_footer">RRSS</em>
-        <a href="https://www.linkedin.com/in/sofiaromerokamermann/">LinkedIn</a>
-        <a href="https://github.com/SRomK">Github</a>
+        <div class="box"><em class="em_footer">RRSS</em></div>
+        <div class="rrss_links">
+            <a class="linkandgit" href="https://www.linkedin.com/in/sofiaromerokamermann/">LinkedIn</a>
+            <a class="linkandgit" href="https://github.com/SRomK">Github</a>
+        </div>
     </footer>
 </body>
 
