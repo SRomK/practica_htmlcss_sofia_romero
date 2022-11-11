@@ -47,6 +47,12 @@ header{
     padding: 30px, 10%;
 }
 
+input {
+    background: rgb(237, 216, 240);
+    width: 30%;
+    height: 2em;
+    border-radius: 5px;
+}
 
 .logo{
     width: min(10vw, 80px);
@@ -194,6 +200,10 @@ input[type="radio"], input[type=checkbox] {
     border-radius: 50%;
     transition: 120ms transform ease-in-out;
     cursor: pointer;
+}
+
+.last_label {
+    margin-bottom: 20px;
 }
 
 .button_enviar {
